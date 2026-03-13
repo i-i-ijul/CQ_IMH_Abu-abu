@@ -61,7 +61,7 @@
             // 
             this.btnHitungMK.Location = new System.Drawing.Point(407, 314);
             this.btnHitungMK.Name = "btnHitungMK";
-            this.btnHitungMK.Size = new System.Drawing.Size(105, 40);
+            this.btnHitungMK.Size = new System.Drawing.Size(97, 30);
             this.btnHitungMK.TabIndex = 2;
             this.btnHitungMK.Text = "Hitung MK";
             this.btnHitungMK.UseVisualStyleBackColor = true;
