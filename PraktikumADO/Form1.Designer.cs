@@ -88,7 +88,7 @@
             // 
             // txtHasil
             // 
-            this.txtHasil.Location = new System.Drawing.Point(278, 110);
+            this.txtHasil.Location = new System.Drawing.Point(273, 110);
             this.txtHasil.Name = "txtHasil";
             this.txtHasil.Size = new System.Drawing.Size(191, 22);
             this.txtHasil.TabIndex = 5;
