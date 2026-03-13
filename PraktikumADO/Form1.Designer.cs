@@ -115,9 +115,9 @@
             // 
             // btnNambahData
             // 
-            this.btnNambahData.Location = new System.Drawing.Point(524, 231);
+            this.btnNambahData.Location = new System.Drawing.Point(543, 226);
             this.btnNambahData.Name = "btnNambahData";
-            this.btnNambahData.Size = new System.Drawing.Size(121, 36);
+            this.btnNambahData.Size = new System.Drawing.Size(115, 39);
             this.btnNambahData.TabIndex = 8;
             this.btnNambahData.Text = "Tambah Data";
             this.btnNambahData.UseVisualStyleBackColor = true;
