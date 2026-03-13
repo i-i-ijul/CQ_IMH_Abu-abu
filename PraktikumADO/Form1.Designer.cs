@@ -34,6 +34,9 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtHasil = new System.Windows.Forms.TextBox();
+            this.btnHitungDosen = new System.Windows.Forms.Button();
+            this.btnUpdateMK = new System.Windows.Forms.Button();
+            this.btnNambahData = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnConnect
@@ -56,9 +59,9 @@
             // 
             // btnHitungMK
             // 
-            this.btnHitungMK.Location = new System.Drawing.Point(394, 321);
+            this.btnHitungMK.Location = new System.Drawing.Point(407, 314);
             this.btnHitungMK.Name = "btnHitungMK";
-            this.btnHitungMK.Size = new System.Drawing.Size(75, 23);
+            this.btnHitungMK.Size = new System.Drawing.Size(105, 40);
             this.btnHitungMK.TabIndex = 2;
             this.btnHitungMK.Text = "Hitung MK";
             this.btnHitungMK.UseVisualStyleBackColor = true;
@@ -71,7 +74,7 @@
             this.btnUpdate.TabIndex = 3;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
-            this.btnUpdate.Click += new System.EventHandler(this.button4_Click);
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // label1
             // 
@@ -85,17 +88,48 @@
             // 
             // txtHasil
             // 
-            this.txtHasil.Location = new System.Drawing.Point(369, 110);
+            this.txtHasil.Location = new System.Drawing.Point(278, 110);
             this.txtHasil.Name = "txtHasil";
-            this.txtHasil.Size = new System.Drawing.Size(100, 22);
+            this.txtHasil.Size = new System.Drawing.Size(191, 22);
             this.txtHasil.TabIndex = 5;
             this.txtHasil.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // btnHitungDosen
+            // 
+            this.btnHitungDosen.Location = new System.Drawing.Point(66, 224);
+            this.btnHitungDosen.Name = "btnHitungDosen";
+            this.btnHitungDosen.Size = new System.Drawing.Size(98, 36);
+            this.btnHitungDosen.TabIndex = 6;
+            this.btnHitungDosen.Text = "Hitung Dosen";
+            this.btnHitungDosen.UseVisualStyleBackColor = true;
+            this.btnHitungDosen.Click += new System.EventHandler(this.btnUpdateMK_Click);
+            // 
+            // btnUpdateMK
+            // 
+            this.btnUpdateMK.Location = new System.Drawing.Point(299, 231);
+            this.btnUpdateMK.Name = "btnUpdateMK";
+            this.btnUpdateMK.Size = new System.Drawing.Size(117, 36);
+            this.btnUpdateMK.TabIndex = 7;
+            this.btnUpdateMK.Text = "UpdateMK";
+            this.btnUpdateMK.UseVisualStyleBackColor = true;
+            // 
+            // btnNambahData
+            // 
+            this.btnNambahData.Location = new System.Drawing.Point(524, 231);
+            this.btnNambahData.Name = "btnNambahData";
+            this.btnNambahData.Size = new System.Drawing.Size(121, 36);
+            this.btnNambahData.TabIndex = 8;
+            this.btnNambahData.Text = "Tambah Data";
+            this.btnNambahData.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnNambahData);
+            this.Controls.Add(this.btnUpdateMK);
+            this.Controls.Add(this.btnHitungDosen);
             this.Controls.Add(this.txtHasil);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnUpdate);
@@ -118,6 +152,9 @@
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtHasil;
+        private System.Windows.Forms.Button btnHitungDosen;
+        private System.Windows.Forms.Button btnUpdateMK;
+        private System.Windows.Forms.Button btnNambahData;
     }
 }
 
