@@ -108,7 +108,7 @@
             // 
             this.btnUpdateMK.Location = new System.Drawing.Point(299, 231);
             this.btnUpdateMK.Name = "btnUpdateMK";
-            this.btnUpdateMK.Size = new System.Drawing.Size(117, 36);
+            this.btnUpdateMK.Size = new System.Drawing.Size(112, 29);
             this.btnUpdateMK.TabIndex = 7;
             this.btnUpdateMK.Text = "UpdateMK";
             this.btnUpdateMK.UseVisualStyleBackColor = true;
